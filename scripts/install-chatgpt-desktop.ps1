@@ -229,7 +229,12 @@ try {
     Write-Info "安装位置: $($now.InstallLocation)"
 
     $svc = Get-Service -Name $AppServiceName -ErrorAction SilentlyContinue
-    if ($svc) { Write-Info "沙箱服务: $($svc.Name) [$($svc.Status)]" }
+    if ($svc) {
+        Write-Info "沙箱服务: $($svc.Name) [$($svc.Status)]"
+        if ($svc.Status -ne 'Running') {
+            Write-Info "          此处显示 Stopped 属正常，该服务由应用按需拉起。"
+        }
+    }
 
     Write-Host ''
     Write-Host '───────────────────────────────────────────────' -ForegroundColor DarkGray
