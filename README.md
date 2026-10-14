@@ -43,8 +43,10 @@
 桌面版chatgpt需要验证外国手机号，没有外国手机号在
 接码平台
 https://hero-sms.com/cn
+账号
 SPRING-XIAN@163.COM
 .0B
+
 ---
 
 ## 目录结构
