@@ -47,6 +47,7 @@ https://hero-sms.com/cn
 SPRING-XIAN@163.COM
 .0B
 
+建议用家庭IP/泰国/打开gpt/再接码/接码也用泰国手机号
 ---
 
 ## 目录结构
